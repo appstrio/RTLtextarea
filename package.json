@@ -9,7 +9,7 @@
     "test": "phantomjs ./tests/public/lib/phantomjs-testrunner.js http://localhost:8085/phantom-runner.html",
     "posttest": "forever stop tests/server.js"
   },
-  "main": "./RTLText.module.js",
+  "main": "./shouldBeRTL.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/twitter/RTLtextarea.git"
