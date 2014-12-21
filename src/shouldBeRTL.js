@@ -1,19 +1,15 @@
 /*
- * RTLText
+ * Forked from Twitter's RTLText
  * Copyright 2012 Twitter and other contributors
  * Released under the MIT license
  *
  * What it does:
  *
- * This module will set the direction of a textarea to RTL when a threshold
- * of RTL characters has been reached (rtlThreshold). It also applies Twitter-
- * specific RTL rules regarding the placement of @ signs, # tags, and URLs.
+ * check if text should be RTL
  *
  * How to use:
  *
- * Bind keyup and keydown to RTLText.onTextChange. If you have initial text,
- * call RTLText.setText(textarea, initial_string) to set markers on that
- * initial text.
+ * RTLText.shouldBeRTL(text);
  */
 var RTLText = function () {
   'use strict';
